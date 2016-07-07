@@ -14,7 +14,6 @@ export default {
       ...defaultOptions,
       ..._options
     };
-
     this.add(storyName, (context) => {
       const props = {
         info,
